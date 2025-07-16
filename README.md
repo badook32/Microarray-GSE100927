@@ -3,14 +3,7 @@
 This repository contains an R script for processing and analyzing the **GSE100927** microarray dataset to identify differentially expressed genes (DEGs) associated with **OASL expression levels** and **arterial site comparisons**. The pipeline includes data loading, normalization, phenotype annotation, DEG identification using `limma`, and probe-to-gene symbol mapping via `biomaRt`.
 
 ---
-## 🔧 Input Data
-
-* **Platform**: Agilent SurePrint G3 Human GE 8x60K v2
-* **Raw Data Format**: `.txt.gz` files for each GSM sample
-* **Sample Metadata**: Manually matched using GSM IDs to sample names
-
----
-## 📈 Workflow Overview
+## Workflow Overview
 
 ### 1. Raw Data Preprocessing
 
@@ -62,7 +55,7 @@ Filtering criteria:
 
 
 ---
-## 📚 References
+## References
 
 * GSE100927: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100927](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100927)
 
